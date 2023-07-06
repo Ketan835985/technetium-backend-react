@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +36,84 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+table{
+  border: 2px solid red;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+td, th {
+  border: 1px solid #0c0505;
+  text-align: left;
+  padding: 8px;
+}
+
+form{
+
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 2px solid #0c0505;
+}
+
+input{
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 8px;
+  box-sizing: border-box;
+  border: 2px solid #0c0505;
+  border-radius: 13px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 3px 3px 3px rgb(92, 31, 31);
+}
+
+button{
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 8px;
+  box-sizing: border-box; 
+  border: 2px solid #0c0505;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #0c0505;
+  color: white;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px rgb(92, 31, 31);
+}
+button:hover{
+  background-color: #c91a1a;
+  color: white;
+}
+
+
+.container{
+  background : linear-gradient(to right, rgb(6, 86, 140), rgb(189, 46, 74)),
+    linear-gradient(to right, rgb(228, 18, 88), rgb(13, 59, 28));
+  border: 2px solid red;
+  border-radius: 8px;
+  border-collapse: collapse;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 3px 3px 3px rgb(92, 31, 31);
+
 }
